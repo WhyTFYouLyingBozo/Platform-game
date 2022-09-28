@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=37 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Player.gd" type="Script" id=2]
@@ -12,7 +12,6 @@
 [ext_resource path="res://Sprites/On (38x38).png" type="Texture" id=10]
 [ext_resource path="res://Scenes/SwingingTrap.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Scenes/SavePoint.tscn" type="PackedScene" id=12]
-[ext_resource path="res://Scenes/SavePoint.gd" type="Script" id=13]
 
 [sub_resource type="Animation" id=21]
 resource_name = "DoorOpen"
@@ -500,7 +499,6 @@ tile_data = PoolIntArray( -2293763, 0, 0, -2293762, 0, 131076, -2293761, 0, 1, -
 
 [node name="SavePoint" parent="." instance=ExtResource( 12 )]
 position = Vector2( -399, 20 )
-script = ExtResource( 13 )
 
 [node name="SpinningBlade2" type="Node2D" parent="."]
 position = Vector2( 126, -96 )
