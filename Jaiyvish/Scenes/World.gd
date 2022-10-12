@@ -1,12 +1,12 @@
 extends Node2D
-export (int) var follow_speed = 50
+
 func _ready():
-	$AnimationPlayer.play("spin")
-	
+	pass 
+
 func _process(delta):
-	$Path2D/PathFollow2D.offset += follow_speed * delta
-
-
+	pass
+	if Input.is_action_just_pressed("reset"):
+		GameStats.reset()
 
 
 func _on_Area2D_body_entered(body):
