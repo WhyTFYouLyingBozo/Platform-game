@@ -567,19 +567,7 @@ position = Vector2( 898, 17 )
 position = Vector2( 1038, -385 )
 follow_speed = 400
 
-[node name="DoorandButton2" parent="." instance=ExtResource( 7 )]
-position = Vector2( 802, 106 )
-
-[node name="Door" parent="DoorandButton2" index="1"]
-position = Vector2( -1, -11 )
-rotation = -1.57742
-scale = Vector2( 1.60418, 1.10371 )
-
-[node name="Button" parent="DoorandButton2" index="2"]
-position = Vector2( 127, -29 )
-
 [connection signal="body_entered" from="SpinningBlade2/Path2D/PathFollow2D/Sprite/Area2D" to="." method="_on_Area2D_body_entered"]
 
 [editable path="SpinningBlade"]
 [editable path="DoorandButton"]
-[editable path="DoorandButton2"]
