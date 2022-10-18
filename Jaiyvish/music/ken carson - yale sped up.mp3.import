@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/ken carson - yale sped up.mp3-bb14016702cc18fa3c709bdf903c13b6.mp3str"
+
+[deps]
+
+source_file="res://music/ken carson - yale sped up.mp3"
+dest_files=[ "res://.import/ken carson - yale sped up.mp3-bb14016702cc18fa3c709bdf903c13b6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

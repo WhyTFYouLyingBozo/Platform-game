@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/DTF - Me Gusta (speed up).mp3-1c12abbd716e2fa6ab69a6fd39c461d4.mp3str"
+
+[deps]
+
+source_file="res://music/DTF - Me Gusta (speed up).mp3"
+dest_files=[ "res://.import/DTF - Me Gusta (speed up).mp3-1c12abbd716e2fa6ab69a6fd39c461d4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

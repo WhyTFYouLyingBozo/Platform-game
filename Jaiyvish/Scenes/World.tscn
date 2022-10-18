@@ -1,4 +1,4 @@
-[gd_scene load_steps=38 format=2]
+[gd_scene load_steps=39 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Player.gd" type="Script" id=2]
@@ -12,7 +12,8 @@
 [ext_resource path="res://Sprites/On (38x38).png" type="Texture" id=10]
 [ext_resource path="res://Scenes/SwingingTrap.tscn" type="PackedScene" id=11]
 [ext_resource path="res://Scenes/SavePoint.tscn" type="PackedScene" id=12]
-[ext_resource path="res://Scenes/World.gd" type="Script" id=13]
+[ext_resource path="res://Scripts/sound_player.gd" type="Script" id=13]
+[ext_resource path="res://music/Running In The 90's.mp3" type="AudioStream" id=14]
 
 [sub_resource type="Animation" id=21]
 resource_name = "DoorOpen"
@@ -566,6 +567,10 @@ position = Vector2( 898, 17 )
 [node name="SpinningBlade3" parent="." instance=ExtResource( 9 )]
 position = Vector2( 1038, -385 )
 follow_speed = 400
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 14 )
+autoplay = true
 
 [connection signal="body_entered" from="SpinningBlade2/Path2D/PathFollow2D/Sprite/Area2D" to="." method="_on_Area2D_body_entered"]
 

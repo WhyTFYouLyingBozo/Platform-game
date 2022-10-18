@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Camelot.mp3-e3fc1273604ba9b5e9e1e65b83d00018.mp3str"
+
+[deps]
+
+source_file="res://music/Camelot.mp3"
+dest_files=[ "res://.import/Camelot.mp3-e3fc1273604ba9b5e9e1e65b83d00018.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
