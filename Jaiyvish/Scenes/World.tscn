@@ -1,4 +1,4 @@
-[gd_scene load_steps=39 format=2]
+[gd_scene load_steps=42 format=2]
 
 [ext_resource path="res://Scenes/Player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Scenes/Player.gd" type="Script" id=2]
@@ -14,6 +14,9 @@
 [ext_resource path="res://Scenes/SavePoint.tscn" type="PackedScene" id=12]
 [ext_resource path="res://Scripts/sound_player.gd" type="Script" id=13]
 [ext_resource path="res://music/Running In The 90's.mp3" type="AudioStream" id=14]
+[ext_resource path="res://Sprites/background0.png" type="Texture" id=15]
+[ext_resource path="res://Sprites/background1-720 (1).png" type="Texture" id=16]
+[ext_resource path="res://Sprites/snow.png" type="Texture" id=17]
 
 [sub_resource type="Animation" id=21]
 resource_name = "DoorOpen"
@@ -571,6 +574,42 @@ follow_speed = 400
 [node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 14 )
 autoplay = true
+
+[node name="Background" type="Sprite" parent="."]
+position = Vector2( 256, 154.5 )
+scale = Vector2( 0.233333, 0.262037 )
+z_index = -2
+texture = ExtResource( 15 )
+
+[node name="Background2" type="Sprite" parent="."]
+position = Vector2( 750, 156 )
+scale = Vector2( 0.277083, 0.259259 )
+z_index = -2
+texture = ExtResource( 15 )
+
+[node name="Background 2" type="Sprite" parent="."]
+position = Vector2( -221, 87.5 )
+scale = Vector2( 0.429688, 0.154167 )
+z_index = -1
+texture = ExtResource( 16 )
+
+[node name="Background 5" type="Sprite" parent="."]
+position = Vector2( -232, 216 )
+scale = Vector2( 0.4125, 0.222222 )
+z_index = -1
+texture = ExtResource( 16 )
+
+[node name="Background 3" type="Sprite" parent="."]
+position = Vector2( 4.00003, -264 )
+scale = Vector2( 0.529167, 0.548148 )
+z_index = -1
+texture = ExtResource( 17 )
+
+[node name="Background 4" type="Sprite" parent="."]
+position = Vector2( 996, -268 )
+scale = Vector2( 0.504167, 0.525926 )
+z_index = -1
+texture = ExtResource( 17 )
 
 [connection signal="body_entered" from="SpinningBlade2/Path2D/PathFollow2D/Sprite/Area2D" to="." method="_on_Area2D_body_entered"]
 
