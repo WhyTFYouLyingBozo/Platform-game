@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Miss You (Oliver Tree) (Sped Up Version).mp3-769332864b4f45434cc13446c59b51b4.mp3str"
+
+[deps]
+
+source_file="res://music/Miss You (Oliver Tree) (Sped Up Version).mp3"
+dest_files=[ "res://.import/Miss You (Oliver Tree) (Sped Up Version).mp3-769332864b4f45434cc13446c59b51b4.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
