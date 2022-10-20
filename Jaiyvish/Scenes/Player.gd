@@ -42,6 +42,7 @@ func handle_state(player_state):
 	match(player_state):
 		state.STARTJUMP:
 			velocity.y = jump_speed
+			
 	pass
 
 func get_input():

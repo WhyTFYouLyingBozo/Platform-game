@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Video Game Jump Sound Effect (Free Download _ No Copyright).mp3-1b742b5a0ffe78dc1ca9ec2a2d772972.mp3str"
+
+[deps]
+
+source_file="res://music/Video Game Jump Sound Effect (Free Download _ No Copyright).mp3"
+dest_files=[ "res://.import/Video Game Jump Sound Effect (Free Download _ No Copyright).mp3-1b742b5a0ffe78dc1ca9ec2a2d772972.mp3str" ]
+
+[params]
+
+loop=false
+loop_offset=0
