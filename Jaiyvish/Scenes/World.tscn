@@ -312,10 +312,6 @@ position = Vector2( 150, 152 )
 script = ExtResource( 2 )
 speed = 140
 jump_speed = -200
-gravity = null
-slide_speed = null
-friction = null
-acceleration = null
 
 [node name="StaticBody2D" type="StaticBody2D" parent="."]
 

@@ -39,4 +39,3 @@ func play_sound_effect(sfx):
 	sound.play()
 	yield(sound,"finished")
 	sound.queue_free()
-SoundPlayer.play_sound_effect("jump")
