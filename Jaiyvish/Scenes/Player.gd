@@ -42,7 +42,6 @@ func handle_state(player_state):
 	match(player_state):
 		state.STARTJUMP:
 			velocity.y = jump_speed
-			
 	pass
 
 func get_input():
@@ -58,6 +57,7 @@ func _physics_process(delta):
 	if velocity == Vector2.ZERO:
 		player_state = state.IDLE
 	if Input.is_action_just_pressed("jump") and is_on_floor():
+		SoundPlayer.play_sound_effect("jump")
 		player_state = state.STARTJUMP
 	elif velocity.x != 0:
 		player_state = state.RUNNING

@@ -8,7 +8,7 @@ var music_tracks = {
 }
 
 var sound_effects = {
-	"jump":"res://music/jump.wav",
+	"jump":"res://music/random.wav",
 }
 
 
@@ -17,17 +17,17 @@ var sound_effects = {
 
 
 
-var music_db = .6
-var sound_db = 5
+var music_db = 1
+var sound_db = 1
 
-func change_music_db(value):
-	music_db = linear2db(value)
+func change_music_db(val):
+	music_db = linear2db(val)
 	
-func change_sound_db(value):
-	sound_db = linear2db(value)
+func change_sound_db(val):
+	sound_db = linear2db(val)
 
 func _ready():
-	music.stream = load(music_tracks["title_track"])
+	music.stream = load(music_tracks["main"])
 	add_child(music)
 	music.play()
 	
