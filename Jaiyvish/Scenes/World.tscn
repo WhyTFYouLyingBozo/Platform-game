@@ -531,7 +531,7 @@ position = Vector2( 527, 260 )
 position = Vector2( 771, 53 )
 
 [node name="SavePoint2" parent="." instance=ExtResource( 12 )]
-position = Vector2( 258, -204 )
+position = Vector2( 259, -203 )
 
 [node name="SavePoint3" parent="." instance=ExtResource( 12 )]
 position = Vector2( 419, -122 )
@@ -617,7 +617,7 @@ z_index = -1
 texture = ExtResource( 16 )
 
 [node name="Background 3" type="Sprite" parent="."]
-position = Vector2( -51, -265 )
+position = Vector2( -54, -267 )
 scale = Vector2( 0.529167, 0.548148 )
 z_index = -1
 texture = ExtResource( 17 )
