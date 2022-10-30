@@ -1,10 +1,6 @@
-[gd_scene load_steps=3 format=2]
+[gd_scene load_steps=2 format=2]
 
-[ext_resource path="res://Scenes/Ghostphobia.ttf" type="DynamicFontData" id=1]
-
-[sub_resource type="DynamicFont" id=1]
-size = 48
-font_data = ExtResource( 1 )
+[ext_resource path="res://Scenes/NewGame.tscn" type="PackedScene" id=1]
 
 [node name="TitleScreen" type="Control"]
 anchor_right = 1.0
@@ -31,16 +27,4 @@ margin_bottom = 556.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 
-[node name="NewGame" type="Button" parent="Menu/CenterRow/buttons"]
-margin_right = 1040.0
-margin_bottom = 20.0
-flat = true
-
-[node name="Label" type="Label" parent="Menu/CenterRow/buttons/NewGame"]
-anchor_right = 1.0
-anchor_bottom = 1.0
-custom_colors/font_color_shadow = Color( 0.611765, 0, 1, 1 )
-custom_constants/shadow_offset_x = 0
-custom_constants/shadow_offset_y = 5
-custom_fonts/font = SubResource( 1 )
-text = "New Game"
+[node name="NewGame" parent="Menu/CenterRow/buttons" instance=ExtResource( 1 )]
