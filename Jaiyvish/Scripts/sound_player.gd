@@ -8,7 +8,7 @@ var music_tracks = {
 }
 
 var sound_effects = {
-	"jump":"res://music/random.wav",
+	"jump":"res://music/random (1).wav",
 }
 
 

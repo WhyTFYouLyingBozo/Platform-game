@@ -16,4 +16,4 @@ custom_colors/font_color_shadow = Color( 0.341176, 0.0588235, 0.639216, 1 )
 custom_constants/shadow_offset_x = 0
 custom_constants/shadow_offset_y = 5
 custom_fonts/font = ExtResource( 1 )
-text = "Label"
+text = "New Game"
